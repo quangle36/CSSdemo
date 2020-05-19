@@ -1,0 +1,112 @@
+.container {
+	width: 500px;
+	height: 350px;
+	background-color: #FFF;
+	display: flex;
+	flex-direction: column;
+	font-family: Arial, sans-serif;
+	border: 1px solid #CCC;
+}
+.header {
+	display: flex;
+	align-items: center;
+}
+.border {
+	border-bottom: 2px solid #CCC;
+}
+.header .title {
+	font-size: 24px;
+	margin: 10px 24px;
+	flex-grow: 1;
+}
+.question {
+	flex-grow: 0.05;
+}
+
+.method {
+	display: flex;
+}
+.btn-1 {
+	margin: 10px 0 24px 24px;
+	
+}
+.btn-2 {
+	margin: 10px 0 10px 10px;
+}
+.info ,
+.number,
+.notice {
+	margin-left: 24px
+
+}
+.textbox {
+	width: 90%;
+	height: 35px;
+	border: 2px solid #AADAFF;
+	margin: 10px 10px 10px 0;
+	display: flex;
+	align-items: center;
+}
+.textbox-card {
+	width: 40%;
+	height: 35px;
+	border: 2px solid #AADAFF;
+	margin: 10px 10px 10px 0;
+	display: flex;
+	align-items: center;
+}
+
+.text {
+	margin-left: 10px;
+	color: #838D96;
+}
+
+.num-date-ccv {
+	display: flex;
+	margin-top: 12px;
+}
+.num {
+	flex-grow: 1.4;
+}
+.date {
+	flex-grow: 0.5;
+	padding-left: 40px;
+}
+.ccv {
+	flex-grow: 1;
+	padding-left: 10px;
+}
+.txt {
+	display: flex;
+	width: 90.5%;
+}
+.textbox-card {
+	flex-grow: 2;
+}
+.textbox-date {
+	flex-grow: 0.7;
+	height: 35px;
+	border: 2px solid #AADAFF;
+	margin: 10px 10px 10px 0;
+	display: flex;
+	align-items: center;
+}
+.textbox-ccv {
+	flex-grow: 1;
+	height: 35px;
+	border: 2px solid #AADAFF;
+	margin: 10px 0px 10px 0;
+	display: flex;
+	align-items: center;
+}
+.notice {
+	display: flex;
+	align-items: center;
+	margin-top: 8px;
+}
+.icon {
+	color: #56A6E1;
+}
+.message {
+	margin-left: 8px;
+}

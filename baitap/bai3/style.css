@@ -1,0 +1,59 @@
+.container {
+	font-family: Roboto, sans-serif;
+	width: 200px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+
+}
+.header {
+	margin-bottom: 2px;
+	font-weight: bold;
+}
+.border {
+	border-bottom: 1px dotted #EEE;
+	margin-bottom: 3px;
+}
+.userinfo {
+	width: auto;
+	height: 50px;
+	border: 0.5px solid #BBB;
+	border-radius: 3px;
+	background-color: #FFF;
+	margin: 3px 0;
+	display: flex;
+	align-items: center;
+}
+.pic {
+	border-radius: 15px;
+}
+.picture {
+	height: 100%
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+.img {
+	width: 20px;
+	height: 20px;
+}
+.info {
+	font-size: 8px;
+	position: relative;
+	top: -3px;
+	flex-grow: 1;
+}
+.name {
+	color: #373737;
+}
+.email {
+	color: #A2A2A3;
+	font-size: 5px;
+	font-family: Roboto, sans-serif;
+}
+.far {
+	color: red;
+}
+.bin {
+	flex-grow: 0.2;
+}

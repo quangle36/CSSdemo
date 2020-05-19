@@ -1,0 +1,54 @@
+.default-link:link {
+	color: #496cca;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+.default-link:visited {
+	color: #496cc;
+}
+.default-link:hover {
+	text-decoration: underline;
+}
+.default-link:active {
+	color: red;
+}
+.btn-link {
+	text-decoration: none;
+    background: #496cca;
+    color: white;
+    padding: 4px 14px;
+    font-family: Arial, sans-serif;
+}
+.btn-link:hover {
+	background-color: red;
+}
+.btn-link:active {
+	text-decoration: overline;
+	
+}
+.btn-link {
+	text-shadow: 5px 5px 5px gray ;
+}
+p {
+	text-shadow: 1px 1px 1px gray;	
+}
+
+a {
+	text-decoration: 
+
+}
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}

@@ -1,0 +1,51 @@
+body {
+	font-family: Roboto, sans-serif;
+}
+.menu {
+	display: flex;
+	padding: 0;
+	list-style: none;
+}
+.head {
+	padding: 8px 16px;
+}
+.menu li:hover {
+	background-color: #EEE;
+}
+.has-submenu {
+	position: relative;
+}
+
+.has-submenu:hover .submenu {
+	display: block;
+}
+
+.has-submenu ul {
+	width: 100%;
+}	
+.submenu {
+	list-style: none;
+	left: 0;
+	position: absolute;
+	display: none;
+	padding: 0;
+    top: 100%;
+    background-color: #EEE;
+    
+}
+
+.submenu li {
+	display: block;
+	width: 100%;
+}
+.menu-item  a {
+	text-decoration: none;
+	display:block;
+	color: #000;
+	padding: 32px 32px;
+}
+.menu-item {
+	display: inline-block;
+	font-size: 10px;
+	padding: 0px;
+}

@@ -1,0 +1,51 @@
+.wrapper {
+  width: 300px;
+  height: 100px;
+  background-color: #FFF;
+  border-radius: 25px;
+  padding: 32px 32px;
+  font-family: Arial, sans-serif;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .title {
+  font-size: 24px;
+  color: #000000b8;
+  margin-bottom: 8px;
+}
+
+.wrapper .content {
+  color: #274b53ad;
+}
+
+.listitem {
+  display: flex;
+  list-style: none;
+  padding-left: 5px;
+}
+.listitem li {
+  width: 24px;
+  height: 24px;
+  margin:8px 8px 8px 0px;
+}
+.item-1 {
+background-image: url('https://loremflickr.com/320/240')
+}
+.item-2 {
+background-image: url('https://loremflickr.com/320/240')
+}
+.item-3 {
+background-image: url('https://loremflickr.com/320/240')
+}
+.item-4 {
+background-image: url('https://loremflickr.com/320/240')
+}
+.item-5 {
+background-image: url('https://loremflickr.com/320/240')
+}
+.item-6 {
+background-image: url('https://loremflickr.com/320/240')
+}
+.listitem li {
+  border-radius: 4px;
+}

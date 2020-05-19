@@ -1,0 +1,4 @@
+.list-1 .item-1 ~ .item {
+	
+	color: red;
+}

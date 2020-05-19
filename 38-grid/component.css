@@ -1,0 +1,26 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+.weekly-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #DDD;
+}
+.weekly-item .number {
+  font-size: 20px;
+  padding: 0 8px;
+}
+.weekly-item .info {
+  font-size: 14px;
+  flex-grow: 1;
+}
+.weekly-item .song-title {
+  margin-bottom: 8px;
+}
+.weekly-item .view-count {
+  padding: 0 8px;
+}
+.weekly-item .singer {
+  font-size: 13px;
+}
